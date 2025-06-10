@@ -94,13 +94,11 @@ Feel free to check the [issues page](https://github.com/ibtihel-dhaouadi/laptop-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-
 ## 📧 Contact
 Built with 💙 by **ibtihel** Data Science & Machine Learning Enthusiast
 
 Feel free to reach out for feedback or collaboration!
 
 
-🔗 [LinkedIn](https://www.linkedin.com/in/ibtihel-dhaouadi/) | 📧 ibtihel.dhaouadi98@gmail.com
+You can also visit my 🧑‍💻 [GitHub](https://github.com/ibtihel-dhaouadi) profile or 🏆 [Kaggle](https://www.kaggle.com/dhaouadiibtihel98) profile for more projects
 
----
