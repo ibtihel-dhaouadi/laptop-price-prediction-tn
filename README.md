@@ -12,12 +12,14 @@ Whether you're a buyer curious about market prices or a seller looking for prici
 
 ### 🎯 Objectives
 
-1.  Scrape real laptop data from popular Tunisian e-commerce websites.
-2.  **Clean and analyze the data (EDA)** to understand key pricing factors.
-3.  Build a machine learning model **(Random Forest Regressor, XGBoost Regression)** to predict laptop prices.
-4.  Evaluate the model using **cross-validation** techniques.
-5.  Develop an **Advanced recommendation system** to suggest similar laptops.
-6.  Deploy the application via **Streamlit** for easy user access.
+1.  Scrape real laptop data from popular **Tunisian e-commerce websites**.
+2.  **Clean and analyze the data (EDA)** to identify key pricing factors.
+3.  Prepare data for modeling with **Target Encoding** and **log-transforming the price**.
+4.  Use **LazyRegressor** to compare models and select the best one **(XGBoost performed best)**.
+5.  Train and tune an XGBoost Regressor using grid search and parameter tuning.
+6.  Evaluate model performance with **cross-validation** and test metrics.
+7.  Develop an **Advanced recommendation system** to suggest similar laptops.
+8.  Deploy the application via **Streamlit** for easy user access.
 
 ### 📊 Data Collection
 
@@ -37,7 +39,7 @@ The data collected includes various laptop features such as: **Brand**, **Model 
 - **Libraries**:
   - `pandas`, `numpy` (data handling)
   - `Matplotlib`, `Seaborn` (visualization)
-  - `scikit-learn`, `xgboost` (for modeling)
+  - `scikit-learn`, `xgboost`, `lazypredict` (for modeling)
   - `BeautifulSoup`, `requests` (for web scraping)
   - `Streamlit` (for deployment)
 - **Deployment**: Streamlit Cloud / local
@@ -45,8 +47,9 @@ The data collected includes various laptop features such as: **Brand**, **Model 
 
 ## 📊 Demo
 
-🚧 Deployment link will be shared here when live.
+Try the live app here : **Streamlit Cloud:** [Demo on Streamlit Cloud](https://laptop-price-prediction-tn.streamlit.app/)
 
+[![App Screenshot](https://github.com/ibtihel-dhaouadi/laptop-price-prediction-tn/blob/main/app%20capture.png)](https://laptop-price-prediction-tn.streamlit.app/) 
 ## 📦 How to Run Locally (Installation)
 
 ```bash
