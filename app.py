@@ -20,8 +20,9 @@ brand_options = sorted(df['brand'].unique())
 processor_options = sorted(df['processor'].unique())
 gpu_options = sorted(df['gpu'].unique())
 os_options = sorted(df['os'].unique())
-ram_options = sorted(df['ram'].unique())
-
+ram_options = [
+    2, 4, 6, 8, 12, 16, 24, 32, 48, 64, 128
+]
 # Inject CSS to style the button
 st.markdown("""
     <style>
