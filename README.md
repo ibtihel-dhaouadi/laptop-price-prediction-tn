@@ -14,12 +14,12 @@ Whether you're a buyer curious about market prices or a seller looking for prici
 
 1.  Scrape real laptop data from popular **Tunisian e-commerce websites**.
 2.  **Clean and analyze the data (EDA)** to identify key pricing factors.
-3.  Prepare data for modeling with **Target Encoding** and **log-transforming the price**.
+3.  Prepare data for modeling with **Target Encoding** and **log-transforming the price** for better model performance.
 4.  Use **LazyRegressor** to compare models and select the best one **(XGBoost performed best)**.
 5.  Train and tune an XGBoost Regressor using grid search and parameter tuning.
 6.  Evaluate model performance with **cross-validation** and test metrics.
-7.  Develop an **Advanced recommendation system** to suggest similar laptops.
-8.  Deploy the application via **Streamlit** for easy user access.
+7.  Develop a **content-based recommendation system** suggesting similar laptops based on features.
+8.  Build and deploy a user-friendly **Streamlit web app** for easy price prediction and product recommendations.
 
 ### 📊 Data Collection
 
@@ -48,6 +48,12 @@ The data collected includes various laptop features such as: **Brand**, **Model 
 ## 📊 Demo
 
 Try the live app here : **Streamlit Cloud:** [Demo on Streamlit Cloud](https://laptop-price-prediction-tn.streamlit.app/)
+
+How to Use ?
+1. Launch the app via Streamlit.
+2. Input laptop specifications such as brand, screen size, processor, RAM, storage, GPU, OS, and gaming preference.
+3. Click "Predict Price" to get an estimated laptop price.
+4. Explore recommended similar laptops with their specs and prices for comparison.
 
 [![App Screenshot](https://github.com/ibtihel-dhaouadi/laptop-price-prediction-tn/blob/main/app%20capture.png)](https://laptop-price-prediction-tn.streamlit.app/) 
 ## 📦 How to Run Locally (Installation)
@@ -98,7 +104,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 ## 📧 Contact
-Built with 💙 by **ibtihel** Data Science & Machine Learning Enthusiast
+Built with ❤️ by **ibtihel** (june 2025)
 
 Feel free to reach out for feedback or collaboration!
 
