@@ -1,6 +1,6 @@
-# 💻 Laptop Price Predictor (🇹🇳)
+# 💻 Laptop Price Predictor & Recommender (🇹🇳)
 
-Welcome to the **Laptop Price Predictor** project! 
+Welcome to the **Laptop Price Predictor & Recommender** project! 
 
 This project aims to predict laptop prices in Tunisia by analyzing data scraped from multiple popular e-commerce websites. The model **predicts** laptop prices based on various features like brand, specifications, and other attributes. After prediction, it also **recommends** similar laptops with matching features.
 
